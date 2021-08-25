@@ -1,0 +1,13 @@
+version = 1
+
+test_patterns = ["tests/**"]
+
+exclude_patterns = ["storage/**"]
+
+[[analyzers]]
+name = "secrets"
+enabled = true
+
+[[analyzers]]
+name = "php"
+enabled = true
